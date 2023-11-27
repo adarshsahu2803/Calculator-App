@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 40px;
+    height: 40px;
+}
+
+input[type="button"] {
+    width: 48px;
+}
+
+input[type="text"] {
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+input[id="equals"] {
+    width: 96px;
+}
