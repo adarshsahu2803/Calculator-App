@@ -9,72 +9,72 @@
 <body>
     <div class="calculator">
         <div>
-            <input type="text" name="display">
+            <input type="text" id="screen" readOnly>
         </div>
         <div>
-            <button type="button" name="AC">
+            <button type="button" name="AC" onclick="display('AC')">
                 <label for="AC">AC</label>
             </button>
-            <button type="button" name="DE">
+            <button type="button" name="DE" onclick="display('DE')">
                 <label for="DE">DE</label>
             </button>
-            <button type="button" name=".">
+            <button type="button" name="." onclick="display('.')">
                 <label for=".">.</label>
             </button>
-            <button type="button" name="/">
+            <button type="button" name="/" onclick="display('/')">
                 <label for="/">/</label>
             </button>
         </div>
         <div>
-            <button type="button" name="7">
+            <button type="button" name="7" onclick="display('7')">
                 <label for="7">7</label>
             </button>
-            <button type="button" name="8">
+            <button type="button" name="8" onclick="display('8')">
                 <label for="8">8</label>
             </button>
-            <button type="button" name="9">
+            <button type="button" name="9" onclick="display('9')">
                 <label for="9">9</label>
             </button>
-            <button type="button" name="*">
+            <button type="button" name="*" onclick="display('*')">
                 <label for="*">*</label>
             </button>
         </div>
         <div>
-            <button type="button" name="4">
+            <button type="button" name="4" onclick="display('4')">
                 <label for="4">4</label>
             </button>
-            <button type="button" name="5">
+            <button type="button" name="5" onclick="display('5')">
                 <label for="5">5</label>
             </button>
-            <button type="button" name="6">
+            <button type="button" name="6" onclick="display('6')">
                 <label for="6">6</label>
             </button>
-            <button type="button" name="-">
+            <button type="button" name="-" onclick="display('-')">
                 <label for="-">-</label>
             </button>
         </div>
         <div>
-            <button type="button" name="1">
+            <button type="button" name="1" onclick="display('1')">
                 <label for="1">1</label>
             </button>
-            <button type="button" name="2">
+            <button type="button" name="2" onclick="display('2')">
                 <label for="2">2</label>
             </button>
-            <button type="button" name="3">
+            <button type="button" name="3" onclick="display('3')">
                 <label for="3">3</label>
             </button>
-            <button type="button" name="+">
+            <button type="button" name="+" onclick="display('+')">
                 <label for="+">+</label>
             </button>
         </div>
         <div>
-            <button type="button" name="00">
+            <button type="button" name="00" onclick="display('00')">
                 <label for="00">00</label>
             </button>
-            <button type="button" name="0">
+            <button type="button" name="0" onclick="display('0')">
                 <label for="0">0</label>
             </button>
-            <button id="equals" type="button" name="=">
+            <button id="equals" type="button" name="=" onclick="display('=')">
                 <label for="=">=</label>
             </button>
         </div>
