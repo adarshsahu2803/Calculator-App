@@ -10,29 +10,35 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(/images/6.jpg);
+    background-size: cover;
 }
 
-form {
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+input[type="text"] {
+    margin-bottom: 5px;
+    width: 190px;
+    height: 48px;
+    border-color: transparent;
+    border-radius: 3px;
+    background-color: #3d444e;
+    color: white;
+    padding: 0 5px;
 }
 
 button {
     margin-bottom: 5px;
     width: 48px;
     height: 48px;
+    border-color: transparent;
+    border-radius: 3px;
+    background-color: #535c68;
+    color: white;
 }
 
 #equals {
     width: 100px;
 }
 
-input[type="text"] {
-    margin-bottom: 5px;
-    width: 200px;
-    height: 48px;
+#screen {
+    text-align: right;
 }
